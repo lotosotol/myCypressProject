@@ -1,0 +1,19 @@
+{
+  "name": "cypressExample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:update": "npm i cypress@latest typescript@latest ts-loader@latest webpack@latest @cypress/webpack-preprocessor@latest -S -E"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  },
+  "dependencies": {}
+}
