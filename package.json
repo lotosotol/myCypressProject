@@ -1,19 +1,29 @@
 {
-  "name": "cypressExample",
+  "name": "myCypressProject",
   "version": "1.0.0",
-  "description": "",
+  "description": "myCypressProject - test cypres on Win7 / 32bits VM",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "test",
     "cypress": "cypress open",
     "cypress:run": "cypress run",
-    "cypress:update": "npm i cypress@latest typescript@latest ts-loader@latest webpack@latest @cypress/webpack-preprocessor@latest -S -E"
+    "cypress:update": "npm i cypress@latest -S -E"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "e2e",
+    "tests",
+    "cypress",
+    "automation",
+    "framework"
+  ],
+  "author": "Valeriu Jecov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotosotol/myCypressProject.git"
+  },
   "devDependencies": {
-    "cypress": "^3.4.1"
+    "cypress": "6.3.0"
   },
   "dependencies": {}
 }
